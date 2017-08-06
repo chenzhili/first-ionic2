@@ -10,7 +10,7 @@ import { NavParams } from 'ionic-angular'
 })
 export class NotabsPage{
   public params:any;
-  constructor(navParams :NavParams){
-    this.params = navParams.get("name");
+  constructor(public navParams :NavParams){
+    this.params = this.navParams.get("name");
   }
 }
