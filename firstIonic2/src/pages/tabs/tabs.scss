@@ -1,0 +1,27 @@
+.tabs-ios .tab-button:hover:not(.disable-hover), .tabs-ios .tab-button[aria-selected=true]{
+   color:#f00;
+ }
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon[aria-label="home1"]{
+  background:url("../assets/img/tabs/home_active.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button-icon[aria-label="home1 outline"]{
+  background:url("../assets/img/tabs/home.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon[aria-label="recomment"]{
+  background:url("../assets/img/tabs/recommend_active.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button-icon[aria-label="recomment outline"]{
+  background:url("../assets/img/tabs/recommend.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon[aria-label="analysis"]{
+  background:url("../assets/img/tabs/analysis_active.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button-icon[aria-label="analysis outline"]{
+  background:url("../assets/img/tabs/analysis.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon[aria-label="account"]{
+  background:url("../assets/img/tabs/account_active.png") no-repeat center;background-size:100%;
+}
+.tabs-ios .tab-button-icon[aria-label="account outline"]{
+  background:url("../assets/img/tabs/account.png") no-repeat center;background-size:100%;
+}

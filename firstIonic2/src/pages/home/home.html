@@ -1,17 +1,28 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>首页</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <ion-toolbar no-border-top>
+         <ion-segment [(ngModel)]="pet" (click)="changeState()">
+           <ion-segment-button value="puppies">
+             Puppies
+           </ion-segment-button>
+           <ion-segment-button value="kittens">
+             Kittens
+           </ion-segment-button>
+           <ion-segment-button value="ducklings">
+             Ducklings
+           </ion-segment-button>
+         </ion-segment>
+       </ion-toolbar>
   <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <p>按钮的运用</p>
+    <button ion-button color="danger" (click)="toNoTabs()">第一种按钮连接不含有tabs的页面</button>
+    <button ion-button outline (click)="toAccount()">导航到首页</button>
 </ion-content>

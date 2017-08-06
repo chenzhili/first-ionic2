@@ -14,3 +14,9 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+/*页面主色调*/
+$fff:#fff;
+$DB3C14:#DB3C14;
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios{background-color:$DB3C14;}
+.bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{color:$fff;}
+.toolbar-title-ios{color:#fff;}
