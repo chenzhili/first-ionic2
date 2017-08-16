@@ -12,7 +12,7 @@ import { NotabsPage } from './notabs/notabs';
 })
 export class HomePage implements OnInit{
   pet:any;
-  constructor(public navCtrl: NavController,private app: App) {
+  constructor(private navCtrl: NavController,private app: App) {
 
   }
   changeState(){
